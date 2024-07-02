@@ -16,7 +16,7 @@ def scan_directory(directory):
             _, extension = os.path.splitext(file)
             extension = extension.lower() 
             if extension in ['.tiff', '.tif', '.jpg', '.jpeg', '.png']:  # 只添加圖像文件
-                print(f'找到圖像文件: {image_path}')
+                #print(f'找到圖像文件: {image_path}')
                 file_info_list.append(image_path)
             else:
                 print(f'跳過非圖像文件: {image_path}')
