@@ -19,7 +19,7 @@ myenv\Scripts\activate
 source myenv/bin/activate
 
 # Install the package
-pip install git+https://github.com/peggy2125/RDRCPACKAGE.git
+pip install git+https://github.com/peggy2125/windows_rdrcpackage.git
  
  #test if success
 pip list     #you should get numpy 2.0.0、opencv-python 4.10.0.84 & rdrc_package 0.1.0
